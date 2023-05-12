@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/wanlay/gorm-dm8/dmr/parser"
+	"github.com/Zone16/gorm_dm8/dmr/parser"
 	"golang.org/x/text/encoding"
 )
 

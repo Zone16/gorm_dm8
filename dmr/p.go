@@ -10,7 +10,7 @@ import (
 	"database/sql/driver"
 	"sync"
 
-	"github.com/wanlay/gorm-dm8/dmr/i18n"
+	"github.com/Zone16/gorm_dm8/dmr/i18n"
 )
 
 // 发版标记

@@ -7,16 +7,16 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Zone16/gorm"
+	"github.com/Zone16/gorm/callbacks"
+	"github.com/Zone16/gorm/clause"
+	"github.com/Zone16/gorm/logger"
+	"github.com/Zone16/gorm/migrator"
+	"github.com/Zone16/gorm/schema"
+	"github.com/Zone16/gorm/utils"
+	"github.com/Zone16/gorm_dm8/clauses"
+	_ "github.com/Zone16/gorm_dm8/dmr"
 	"github.com/thoas/go-funk"
-	"github.com/wanlay/gorm-dm8/clauses"
-	_ "github.com/wanlay/gorm-dm8/dmr"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
 )
 
 type Config struct {

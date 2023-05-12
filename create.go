@@ -3,14 +3,13 @@ package dm
 import (
 	"bytes"
 	"database/sql"
-	"reflect"
-
+	"github.com/Zone16/gorm"
+	"github.com/Zone16/gorm/callbacks"
+	"github.com/Zone16/gorm/clause"
+	gormSchema "github.com/Zone16/gorm/schema"
+	"github.com/Zone16/gorm_dm8/clauses"
 	"github.com/thoas/go-funk"
-	"github.com/wanlay/gorm-dm8/clauses"
-	"gorm.io/gorm"
-	"gorm.io/gorm/callbacks"
-	"gorm.io/gorm/clause"
-	gormSchema "gorm.io/gorm/schema"
+	"reflect"
 )
 
 func Create(db *gorm.DB) {

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/wanlay/gorm-dm8/dmr/util"
+	"github.com/Zone16/gorm_dm8/dmr/util"
 )
 
 const (

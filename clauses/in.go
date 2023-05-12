@@ -1,6 +1,6 @@
 package clauses
 
-import "gorm.io/gorm/clause"
+import "github.com/Zone16/gorm/clause"
 
 // IN Whether a value is within a set of values
 type IN struct {

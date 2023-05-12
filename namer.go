@@ -2,7 +2,7 @@ package dm
 
 import (
 	"fmt"
-	"gorm.io/gorm/schema"
+	"github.com/Zone16/gorm/schema"
 	"strings"
 )
 

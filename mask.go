@@ -2,8 +2,8 @@ package dm
 
 import (
 	"database/sql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
+	"github.com/Zone16/gorm"
+	"github.com/Zone16/gorm/clause"
 	"reflect"
 	"strings"
 )

@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/wanlay/gorm-dm8/dmr/security"
+	"github.com/Zone16/gorm_dm8/dmr/security"
 )
 
 const (

@@ -1,7 +1,7 @@
 package clauses
 
 import (
-	"gorm.io/gorm/clause"
+	"github.com/Zone16/gorm/clause"
 )
 
 type WhenNotMatched struct {

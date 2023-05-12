@@ -2,13 +2,12 @@ package dm
 
 import (
 	"fmt"
+	"github.com/Zone16/gorm"
+	"github.com/Zone16/gorm/clause"
+	"github.com/Zone16/gorm/migrator"
+	"github.com/Zone16/gorm/schema"
 	"strconv"
 	"strings"
-
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
 )
 
 type Migrator struct {
