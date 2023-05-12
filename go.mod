@@ -1,4 +1,4 @@
-module gorm-dm8
+module gorm_dm8
 
 go 1.17
 
