@@ -1,6 +1,6 @@
-module gorm_dm8
+module github.com/Zone16/gorm_dm8
 
-go 1.17
+go 1.19
 
 require (
 	github.com/emirpasic/gods v1.18.1
